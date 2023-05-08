@@ -8,7 +8,7 @@ gdown --id 1-ASUII_JW-k6UZ36-vHrCKar_2MbtWI8 -O checkpoints/edge-model.pth
 gdown --id 1-FX3FMLnM9NLDjVnaO_HEYqxPijI58Kf -O MiDaS/model.pt
 
 echo "cloning from BoostingMonocularDepth ..."
-git clone https://github.com/compphoto/BoostingMonocularDepth.git
+git clone https://github.com/DongMaicle/BoostingMonocularDepth.git
 mkdir -p BoostingMonocularDepth/pix2pix/checkpoints/mergemodel/
 
 echo "downloading mergenet weights ..."
